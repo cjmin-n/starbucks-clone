@@ -115,7 +115,9 @@ header {
     border-bottom: 1px solid #c8c8c8;
     position: fixed;
     top: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
+    // width: 100%;
     z-index: 9;
     > .inner {
         height: $headerHeight;
