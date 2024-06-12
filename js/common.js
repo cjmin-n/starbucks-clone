@@ -16,6 +16,13 @@ searchInputEl.addEventListener("blur", function () {
     searchInputEl.setAttribute("placeholder", "");
 });
 
+const headerEl = document.querySelector("header");
+window.addEventListener("scroll", function () {
+    // console.log(this.scrollX);
+    headerEl.style.left = 0 - this.scrollX + "px";
+    // headerEl.style.left = 300 + "px";
+});
+
 // footer
 const thisYear = document.querySelector(".this-year");
 thisYear.textContent = new Date().getFullYear();
