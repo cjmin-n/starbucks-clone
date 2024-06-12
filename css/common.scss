@@ -102,6 +102,12 @@ a {
     }
 }
 
+main,
+footer {
+    min-width: 1100px;
+    overflow: hidden;
+    width: 100%;
+}
 /* HEADER */
 $headerHeight: 120px;
 header {
