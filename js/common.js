@@ -18,8 +18,8 @@ searchInputEl.addEventListener("blur", function () {
 
 const headerEl = document.querySelector("header");
 window.addEventListener("scroll", function () {
-    // console.log(this.scrollX);
-    headerEl.style.left = 0 - this.scrollX + "px";
+    console.log(this.scrollX);
+    headerEl.style.left = -this.scrollX + "px";
     // headerEl.style.left = 300 + "px";
 });
 

@@ -4,7 +4,7 @@ const toTopEl = document.querySelector("#to-top");
 window.addEventListener(
     "scroll",
     _.throttle(function () {
-        console.log(window.scrollY);
+        // console.log(window.scrollY);
         if (window.scrollY > 500) {
             // 배지 숨기기
             // badgeEl.style.display = "none";
